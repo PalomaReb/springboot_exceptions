@@ -1,8 +1,6 @@
-package com.example.ex12.application.Ports.ports;
+package com.example.ex12.Person.application.Ports.ports;
 
-import com.example.ex12.application.domain.PersonJPA;
-import com.example.ex12.application.infrastructure.DTO.PersonOUTPUT;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.ex12.Person.application.infrastructure.DTO.PersonOUTPUT;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

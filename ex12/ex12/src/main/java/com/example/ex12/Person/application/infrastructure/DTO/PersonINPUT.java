@@ -1,6 +1,6 @@
-package com.example.ex12.application.infrastructure.DTO;
+package com.example.ex12.Person.application.infrastructure.DTO;
 
-import com.example.ex12.application.domain.Person;
+import com.example.ex12.Person.application.domain.Person;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

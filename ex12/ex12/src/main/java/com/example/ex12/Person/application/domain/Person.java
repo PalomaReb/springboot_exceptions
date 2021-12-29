@@ -1,4 +1,4 @@
-package com.example.ex12.application.domain;
+package com.example.ex12.Person.application.domain;
 
 import lombok.Data;
 

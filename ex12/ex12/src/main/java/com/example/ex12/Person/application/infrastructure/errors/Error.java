@@ -1,4 +1,4 @@
-package com.example.ex12.application.infrastructure.errors;
+package com.example.ex12.Person.application.infrastructure.errors;
 
 import lombok.Data;
 import org.springframework.stereotype.Component;

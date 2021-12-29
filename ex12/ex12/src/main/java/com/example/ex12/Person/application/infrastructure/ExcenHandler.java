@@ -1,8 +1,8 @@
-package com.example.ex12.application.infrastructure;
+package com.example.ex12.Person.application.infrastructure;
 
-import com.example.ex12.application.domain.exceptions.NotFoundException;
-import com.example.ex12.application.domain.exceptions.UnprocesableExceptions;
-import com.example.ex12.application.infrastructure.errors.Error;
+import com.example.ex12.Person.application.domain.exceptions.NotFoundException;
+import com.example.ex12.Person.application.infrastructure.errors.Error;
+import com.example.ex12.Person.application.domain.exceptions.UnprocesableExceptions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -21,8 +21,4 @@ public class ExcenHandler {
     public Error unprocExcep  (){
         return error.UnprocesableExceptions();
     }
-
-
-
-
 }

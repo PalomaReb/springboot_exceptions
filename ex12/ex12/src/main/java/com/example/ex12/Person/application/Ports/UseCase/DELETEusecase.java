@@ -1,7 +1,7 @@
-package com.example.ex12.application.Ports.UseCase;
+package com.example.ex12.Person.application.Ports.UseCase;
 
-import com.example.ex12.application.Ports.ports.DELETEport;
-import com.example.ex12.application.domain.PersonJPA;
+import com.example.ex12.Person.application.Ports.ports.DELETEport;
+import com.example.ex12.Person.application.domain.PersonJPA;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

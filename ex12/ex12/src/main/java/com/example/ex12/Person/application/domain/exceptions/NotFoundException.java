@@ -1,4 +1,4 @@
-package com.example.ex12.application.domain.exceptions;
+package com.example.ex12.Person.application.domain.exceptions;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
