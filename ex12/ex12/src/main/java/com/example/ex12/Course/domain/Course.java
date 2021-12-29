@@ -1,13 +1,13 @@
 package com.example.ex12.Course.domain;
 
+import com.example.ex12.Student.domain.Student;
 import com.sun.istack.NotNull;
 import lombok.Data;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
 
+@Table(name="Asignatura")
 @Entity
 @Data
 public class Course {
@@ -22,7 +22,15 @@ public class Course {
     @NotNull
     private Date initial_Date;
 
+    @Column(name="term_date")
     private Date term_date;
+
+    @ManyToOne (fetch = FetchType.LAZY)
+    @JoinColumn(name="id_student")
+    private Student student_course;
+
+
+
 
 
 
