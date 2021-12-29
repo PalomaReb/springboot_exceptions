@@ -2,12 +2,15 @@ package com.example.ex12.application.domain;
 
 import lombok.Data;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.util.Date;
 
 @Data
 @Entity
+
 public class Person {
     @Id
     @GeneratedValue
@@ -15,15 +18,16 @@ public class Person {
 
     private String usuario;
     private String password;
+    @Column(name = "name")
     private String name;
     private String lastName;
     private String comp_email;
     private String personal_email;
     private String city;
     private Boolean active;
-    private Data created_date;
+    private Date created_date;
     private String image_url;
-    private Data termination_Date;
+    private Date term_Date;
 
 
 }
