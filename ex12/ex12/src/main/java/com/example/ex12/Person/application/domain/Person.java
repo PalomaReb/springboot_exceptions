@@ -1,12 +1,16 @@
 package com.example.ex12.Person.application.domain;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.Date;
 
 @Data
 @Entity
+@Getter
+@Setter
 @Table(name="Persona")
 public class Person {
     @Id
