@@ -1,7 +1,6 @@
-package com.example.ex12.Teacher.domain;
+/*package com.example.ex12.Teacher.domain;
 
 import com.example.ex12.Person.application.domain.Person;
-import com.example.ex12.Student.domain.Student;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
@@ -33,7 +32,3 @@ public class Teacher {
      */
 
 
-
-
-
-}

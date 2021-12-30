@@ -22,7 +22,7 @@ public class GETcontroller {
 
     @GetMapping("/name/{name}")
     public List<PersonOUTPUT> personName (@PathVariable String name) throws Exception{
-        return geTport.findbyName(name);
+        return geTport.findByName(name);
     }
 
     @GetMapping("/allPerson")

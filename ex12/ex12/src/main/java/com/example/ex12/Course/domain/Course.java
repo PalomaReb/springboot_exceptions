@@ -1,6 +1,6 @@
-package com.example.ex12.Course.domain;
+/*package com.example.ex12.Course.domain;
 
-import com.example.ex12.Student.domain.Student;
+import com.example.ex12.Student.application.domain.Student;
 import com.sun.istack.NotNull;
 import lombok.Data;
 
@@ -25,7 +25,7 @@ public class Course {
     @Column(name="term_date")
     private Date term_date;
 
-    @ManyToOne (fetch = FetchType.LAZY)
+    @OneToMany (fetch = FetchType.LAZY)
     @JoinColumn(name="id_student")
     private Student student_course;
 
@@ -36,3 +36,4 @@ public class Course {
 
 
 }
+*/

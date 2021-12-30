@@ -9,7 +9,7 @@ import java.util.List;
 public interface GETport {
 
     PersonOUTPUT getPersonById(int id) throws Exception;
-    List <PersonOUTPUT> findbyName(String name) throws Exception;
+    List <PersonOUTPUT> findByName(String name) throws Exception;
     List<PersonOUTPUT> getAll() throws Exception;
 
 }

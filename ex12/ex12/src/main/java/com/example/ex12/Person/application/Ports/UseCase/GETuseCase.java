@@ -26,7 +26,7 @@ public class GETuseCase implements GETport {
     }
 
     @Override
-    public List<PersonOUTPUT> findbyName(String name) throws Exception {
+    public List<PersonOUTPUT> findByName(String name) throws Exception {
         List <Person> person = personJPA.findByName(name);
         return toListDTOoutput(person);
     }
