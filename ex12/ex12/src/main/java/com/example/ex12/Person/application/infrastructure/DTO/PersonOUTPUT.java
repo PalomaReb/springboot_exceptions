@@ -12,6 +12,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PersonOUTPUT {
+
     private String usuario;
     private String password;
     private String name;
